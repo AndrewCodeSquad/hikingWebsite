@@ -1,6 +1,42 @@
+body {
+	font-family: 'Muli', sans-serif;
+	font-weight: bold;
+}
+nav {
+	color: white;
+	background-color:#333a35;
+	width: 1200px;
+	display: flex;
+	align-items: center;
+}
+nav > div {
+	text-transform: uppercase;
+	/* border: 1px solid white; */
+	margin: 10px 20px;
+}
+nav>div>a:link, nav>div>a:visited {
+	color: white;
+	text-decoration: none;
+}
+nav>div>a:hover {
+	color: #eca419;
+} 
+nav>div>a:active {
+	color: white;
+	text-decoration: none;
+}
+.logo {
+	height: 50px;
+}
+.fas, .fab {
+	color:#eca419;
+	font-size: x-large;
+}
+.fas:hover, .fab:hover {
+	color: white;
+}
 h2 {
 	color: white;
-	font: bold 20pt Arial, Helvetica, sans-serif;
 	margin: 6%;
 }
 .featureContainer {
@@ -12,7 +48,6 @@ h2 {
 }
 .imgText {
 	display: flex;
-	justify-content: center;
 	align-items: flex-end;
 }
 .feature1 {
@@ -22,6 +57,7 @@ h2 {
 }
 .feature1 > h2 {
 	font-size: 38pt;
+	justify-content: center;
 	text-align: center;
 	padding: 3%;
 	border-bottom: 2px solid rgb(202, 127, 7);
@@ -35,4 +71,7 @@ h2 {
 	background-image: url("relax420x237.jpg");
 	width: 420px;
 	height: 237px;
+}
+a.hover {
+	color:#eca419;
 }
