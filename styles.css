@@ -1,0 +1,22 @@
+.mainBanner {
+	display: flex;
+	flex-wrap: wrap;
+}
+.feature1 {
+	background-image: url("desert780x477.jpg");
+	background-repeat: no-repeat;
+	flex: 2;
+}
+.feature2 {
+	background-image: url("stream420x240.jpg");
+	flex: 1;
+}
+.feature3 {
+	background-image: url("relax420x237.jpg");
+	flex: 1;
+}
+h2 {
+	margin: 0;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+}
