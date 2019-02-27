@@ -1,0 +1,13 @@
+body {
+	font-family: 'Muli', sans-serif;
+}
+nav{
+	display: flex;
+	background: gray;
+	justify-content: flex-start;
+}
+
+p {
+	margin: 5px;
+	color: white;
+}

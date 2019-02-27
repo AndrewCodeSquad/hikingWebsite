@@ -75,3 +75,19 @@ h2 {
 a.hover {
 	color:#eca419;
 }
+.photoStrip {
+	width: 1140px;
+	display: flex;
+	justify-content: space-evenly;
+	margin: 30px;
+}
+.photoStripImg {
+	width: 279px;
+
+	height: 183px;
+}
+.photoStripItem {
+	width: 279px;
+	text-transform: uppercase;
+	/* border: 1px solid black; */
+}
